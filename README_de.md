@@ -1,46 +1,37 @@
 # RHCE in Enterprise Linux Übungsprüfung 02
 
-## Sprachen
+**Sprachen:** [English](README.md) · [简体中文](README_zh.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [日本語](README_ja.md) · [Русский](README_ru.md) · [한국어](README_ko.md) · [Português](README_pt.md)
 
-🇨🇳 [简体中文](README_zh.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇯🇵 [日本語](README_ja.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 🇺🇸 [English](README.md) 
-
-[![RHCE in Enterprise Linux Übungsprüfung 02](https://course-cover.labex.io/rhce-enterprise-linux-practice-exam-02.png?lang=de)](https://labex.io/de/courses/rhce-enterprise-linux-practice-exam-02)
-
-[![Start-Learning](https://img.shields.io/badge/Start-Learning-whitesmoke?style=for-the-badge)](https://labex.io/de/courses/rhce-enterprise-linux-practice-exam-02)
+<p align="center">
+  <a href="https://labex.io/de/courses/rhce-enterprise-linux-practice-exam-02">
+    <img src="https://course-cover.labex.io/rhce-enterprise-linux-practice-exam-02.png?lang=de" alt="RHCE in Enterprise Linux Übungsprüfung 02">
+  </a>
+</p>
 
 Eine zweite praxisorientierte RHCE in Enterprise Linux Übungsprüfung mit 14 unabhängigen RHEL-Fehlerbehebungsszenarien, die Beweissicherung, Boot-Vorgänge, Speicher, Pakete, Netzwerke, Anwendungen, SELinux, Container, Authentifizierung und SystemTap abdecken.
 
-![linux](https://img.shields.io/badge/linux-whitesmoke?style=for-the-badge&logo=linux)
-![rhel](https://img.shields.io/badge/rhel-whitesmoke?style=for-the-badge&logo=rhel)
-![rhce-enterprise-linux](https://img.shields.io/badge/rhce-enterprise-linux-whitesmoke?style=for-the-badge&logo=rhce-enterprise-linux)
-
+[Kurs auf LabEx starten](https://labex.io/de/courses/rhce-enterprise-linux-practice-exam-02)
 
 ## Übungen
 
-|   Index | Name                                                     | Schwierigkeit   | Übung                                                                                                                                                                                     |
-|---------|----------------------------------------------------------|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|      01 | 🎯  Erstellung eines Support-Bundles für einen wiederk... | Fortgeschritten | <a target='_blank' href='https://labex.io/de/labs/rhel-build-a-support-bundle-for-a-recurring-failure-664474?course=rhce-enterprise-linux-practice-exam-02'>Challenge Starten</a>         |
-|      02 | 🎯  Diagnoseerfassung mit Logging konfigurieren           | Fortgeschritten | <a target='_blank' href='https://labex.io/de/labs/rhel-configure-diagnostic-collection-with-logging-664475?course=rhce-enterprise-linux-practice-exam-02'>Challenge Starten</a>           |
-|      03 | 🎯  Wiederherstellung eines Systems im Notfallmodus       | Experte         | <a target='_blank' href='https://labex.io/de/labs/rhel-restore-a-system-stuck-in-emergency-mode-664487?course=rhce-enterprise-linux-practice-exam-02'>Challenge Starten</a>               |
-|      04 | 🎯  Bootloader-Argumente und Gerätesymptome reparieren    | Experte         | <a target='_blank' href='https://labex.io/de/labs/rhel-repair-bootloader-arguments-and-device-symptoms-664481?course=rhce-enterprise-linux-practice-exam-02'>Challenge Starten</a>        |
-|      05 | 🎯  Reparatur eines defekten Logical Volume Mounts        | Experte         | <a target='_blank' href='https://labex.io/de/labs/rhel-repair-a-broken-logical-volume-mount-664482?course=rhce-enterprise-linux-practice-exam-02'>Challenge Starten</a>                   |
-|      06 | 🎯  Daten aus einem falsch konfigurierten verschlüssel... | Experte         | <a target='_blank' href='https://labex.io/de/labs/rhel-recover-data-from-a-misconfigured-encrypted-mount-664480?course=rhce-enterprise-linux-practice-exam-02'>Challenge Starten</a>      |
-|      07 | 🎯  Wiederherstellung von persistentem iSCSI-Speicher ... | Experte         | <a target='_blank' href='https://labex.io/de/labs/rhel-restore-persistent-iscsi-storage-after-capacity-outage-664485?course=rhce-enterprise-linux-practice-exam-02'>Challenge Starten</a> |
-|      08 | 🎯  Fehlgeschlagene Pakettransaktionen reparieren         | Fortgeschritten | <a target='_blank' href='https://labex.io/de/labs/rhel-repair-failed-package-transactions-664483?course=rhce-enterprise-linux-practice-exam-02'>Challenge Starten</a>                     |
-|      09 | 🎯  Eine defekte NetworkManager-Route reparieren          | Fortgeschritten | <a target='_blank' href='https://labex.io/de/labs/rhel-fix-a-broken-networkmanager-route-664479?course=rhce-enterprise-linux-practice-exam-02'>Challenge Starten</a>                      |
-|      10 | 🎯  Konflikt zwischen Firewall und Dienst-Bindung diag... | Fortgeschritten | <a target='_blank' href='https://labex.io/de/labs/rhel-diagnose-firewall-and-service-binding-conflict-664478?course=rhce-enterprise-linux-practice-exam-02'>Challenge Starten</a>         |
-|      11 | 🎯  Fehlerbehebung bei einem abstürzenden Anwendungspr... | Experte         | <a target='_blank' href='https://labex.io/de/labs/rhel-debug-a-crashing-application-process-664477?course=rhce-enterprise-linux-practice-exam-02'>Challenge Starten</a>                   |
-|      12 | 🎯  Wiederherstellung eines Podman-Dienstes mit SELinu... | Experte         | <a target='_blank' href='https://labex.io/de/labs/rhel-restore-a-podman-service-with-selinux-constraints-664486?course=rhce-enterprise-linux-practice-exam-02'>Challenge Starten</a>      |
-|      13 | 🎯  Identitätsprüfung und Anmeldeverhalten reparieren     | Experte         | <a target='_blank' href='https://labex.io/de/labs/rhel-repair-identity-lookup-and-login-behavior-664484?course=rhce-enterprise-linux-practice-exam-02'>Challenge Starten</a>              |
-|      14 | 🎯  Erstellen einer sicheren SystemTap-Diagnosesonde      | Experte         | <a target='_blank' href='https://labex.io/de/labs/rhel-create-a-safe-systemtap-diagnostic-probe-664476?course=rhce-enterprise-linux-practice-exam-02'>Challenge Starten</a>               |
+|   Index | Name                                                  | Schwierigkeit   | Übung                                                                                                                                                                                     |
+|---------|-------------------------------------------------------|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|      01 | Erstellung eines Support-Bundles für einen wiederk... | Fortgeschritten | <a target='_blank' href='https://labex.io/de/labs/rhel-build-a-support-bundle-for-a-recurring-failure-664474?course=rhce-enterprise-linux-practice-exam-02'>Challenge starten</a>         |
+|      02 | Diagnoseerfassung mit Logging konfigurieren           | Fortgeschritten | <a target='_blank' href='https://labex.io/de/labs/rhel-configure-diagnostic-collection-with-logging-664475?course=rhce-enterprise-linux-practice-exam-02'>Challenge starten</a>           |
+|      03 | Wiederherstellung eines Systems im Notfallmodus       | Experte         | <a target='_blank' href='https://labex.io/de/labs/rhel-restore-a-system-stuck-in-emergency-mode-664487?course=rhce-enterprise-linux-practice-exam-02'>Challenge starten</a>               |
+|      04 | Bootloader-Argumente und Gerätesymptome reparieren    | Experte         | <a target='_blank' href='https://labex.io/de/labs/rhel-repair-bootloader-arguments-and-device-symptoms-664481?course=rhce-enterprise-linux-practice-exam-02'>Challenge starten</a>        |
+|      05 | Reparatur eines defekten Logical Volume Mounts        | Experte         | <a target='_blank' href='https://labex.io/de/labs/rhel-repair-a-broken-logical-volume-mount-664482?course=rhce-enterprise-linux-practice-exam-02'>Challenge starten</a>                   |
+|      06 | Daten aus einem falsch konfigurierten verschlüssel... | Experte         | <a target='_blank' href='https://labex.io/de/labs/rhel-recover-data-from-a-misconfigured-encrypted-mount-664480?course=rhce-enterprise-linux-practice-exam-02'>Challenge starten</a>      |
+|      07 | Wiederherstellung von persistentem iSCSI-Speicher ... | Experte         | <a target='_blank' href='https://labex.io/de/labs/rhel-restore-persistent-iscsi-storage-after-capacity-outage-664485?course=rhce-enterprise-linux-practice-exam-02'>Challenge starten</a> |
+|      08 | Fehlgeschlagene Pakettransaktionen reparieren         | Fortgeschritten | <a target='_blank' href='https://labex.io/de/labs/rhel-repair-failed-package-transactions-664483?course=rhce-enterprise-linux-practice-exam-02'>Challenge starten</a>                     |
+|      09 | Eine defekte NetworkManager-Route reparieren          | Fortgeschritten | <a target='_blank' href='https://labex.io/de/labs/rhel-fix-a-broken-networkmanager-route-664479?course=rhce-enterprise-linux-practice-exam-02'>Challenge starten</a>                      |
+|      10 | Konflikt zwischen Firewall und Dienst-Bindung diag... | Fortgeschritten | <a target='_blank' href='https://labex.io/de/labs/rhel-diagnose-firewall-and-service-binding-conflict-664478?course=rhce-enterprise-linux-practice-exam-02'>Challenge starten</a>         |
+|      11 | Fehlerbehebung bei einem abstürzenden Anwendungspr... | Experte         | <a target='_blank' href='https://labex.io/de/labs/rhel-debug-a-crashing-application-process-664477?course=rhce-enterprise-linux-practice-exam-02'>Challenge starten</a>                   |
+|      12 | Wiederherstellung eines Podman-Dienstes mit SELinu... | Experte         | <a target='_blank' href='https://labex.io/de/labs/rhel-restore-a-podman-service-with-selinux-constraints-664486?course=rhce-enterprise-linux-practice-exam-02'>Challenge starten</a>      |
+|      13 | Identitätsprüfung und Anmeldeverhalten reparieren     | Experte         | <a target='_blank' href='https://labex.io/de/labs/rhel-repair-identity-lookup-and-login-behavior-664484?course=rhce-enterprise-linux-practice-exam-02'>Challenge starten</a>              |
+|      14 | Erstellen einer sicheren SystemTap-Diagnosesonde      | Experte         | <a target='_blank' href='https://labex.io/de/labs/rhel-create-a-safe-systemtap-diagnostic-probe-664476?course=rhce-enterprise-linux-practice-exam-02'>Challenge starten</a>               |
 
-## Über LabEx
+## About LabEx
 
-[LabEx](https://labex.io) ist eine interaktive, praktische Lernplattform für Programmierung und Technologie. Sie kombiniert Labore, KI-Unterstützung und virtuelle Maschinen für eine videofreie, praktische Lernerfahrung. Mit einem strikten 'Learning by Doing'-Ansatz, interaktiven Online-Umgebungen im Browser mit automatisierten Schritt-für-Schritt-Überprüfungen, strukturierter Inhaltsorganisation mit dem Skill-Tree-basierten System, und einer wachsenden Lernressource von 30 Skill Trees und über 6.000 Laboren, [LabEx](https://labex.io) bietet umfassende praktische Bildung. Die Plattform umfasst den Lernassistenten Labby, aufgebaut auf den neuesten KI-Modellen, der eine konversationelle Lernerfahrung bietet.
-
-## Mehr
-
-- 🔗 [RHCE-in-Enterprise-Linux-Schulung Programmierungskurse](https://github.com/labex-labs/awesome-programming-courses)
-- 🔗 [RHCE-in-Enterprise-Linux-Schulung Programmierprojekte](https://github.com/labex-labs/awesome-programming-projects)
-- 🔗 [RHCE-in-Enterprise-Linux-Schulung Kostenlose Tutorials](https://github.com/labex-labs/rhce-enterprise-linux-free-tutorials)
+<div align="left"><p><a href="https://labex.io"><strong>LabEx</strong></a> is a <strong>hands-on learning platform for beginners</strong>.</p><p>Explore <a href="https://labex.io/learn/linux"><strong>Linux</strong></a>, <a href="https://labex.io/learn/devops"><strong>DevOps</strong></a>, <a href="https://labex.io/learn/cybersecurity"><strong>Cybersecurity</strong></a>, and <strong>more</strong> — all directly in your browser.</p><p>Learn step by step through <strong>interactive labs</strong>, <strong>guided exercises</strong>, and <strong>real-world projects</strong>. 🌱<br />No setup, no stress — just practice and grow your skills by doing.</p><br /><p><a href="https://apps.apple.com/app/id6765840991"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" height="54" /></a>&nbsp;<a href="https://apps.apple.com/app/id6765840991"><img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-mac-app-store.svg" alt="Download on the Mac App Store" height="52" /></a></p><br /><p>📖 Need help? Visit our <a href="https://support.labex.io/">Help Center</a> or email info@labex.io</p></div>
 
